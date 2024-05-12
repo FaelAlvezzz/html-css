@@ -14,8 +14,22 @@
         </p>
         <p>
             <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia">
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" value="5" required>
         </p>
+        <p>
+            <label for="imes">Período Letivo</label>
+            <input type="month" name="mes" id="imes" value="2024-05">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="dia" id="idia" value="2024-05-11">
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova</label>
+            <input type="time" name="hora" id="ihora" value="13:00">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </form>  
 </body>
 </html>
